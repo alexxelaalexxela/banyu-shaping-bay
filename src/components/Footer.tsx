@@ -59,7 +59,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://wa.me/6281234567890?text=Hello%20BANYU,%20I%20need%20ding%20repair%20for%20my%20board"
+                  href="https://wa.me/62081236302148?text=Hello%20BANYU,%20I%20need%20ding%20repair%20for%20my%20board"
                   className="text-sm opacity-80 hover:opacity-100 hover:text-ocean-light transition-colors"
                 >
                   Ding Repairs
@@ -83,10 +83,10 @@ const Footer = () => {
               <li className="flex items-center space-x-2 text-sm">
                 <Phone className="h-4 w-4 flex-shrink-0" />
                 <a 
-                  href="https://wa.me/6281234567890"
+                  href="https://wa.me/62081236302148"
                   className="opacity-80 hover:opacity-100 hover:text-ocean-light transition-colors"
                 >
-                  WhatsApp: +62 812-3456-7890
+                  WhatsApp: +62081236302148
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-sm">

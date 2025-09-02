@@ -43,7 +43,7 @@ const ServiceCards = () => {
       description: 'Professional surfboard repairs using traditional techniques and modern materials to restore your board to peak condition.',
       features: ['Quick turnaround', 'Quality materials', 'Color matching', 'Structural integrity'],
       cta: 'Get Repair Quote',
-      action: () => window.open('https://wa.me/6281234567890?text=Hello%20BANYU,%20I%20need%20ding%20repair%20for%20my%20board.%20Please%20provide%20a%20quote.', '_blank'),
+      action: () => window.open('https://wa.me/62081236302148?text=Hello%20BANYU,%20I%20need%20ding%20repair%20for%20my%20board.%20Please%20provide%20a%20quote.', '_blank'),
       gradient: 'sand-gradient'
     },
     {

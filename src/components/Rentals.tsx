@@ -39,7 +39,7 @@ const Rentals = () => {
 
           <div className="text-center mt-10">
             <Button asChild size="lg">
-              <a href="https://wa.me/6281234567890?text=Hello%20BANYU,%20I'd%20like%20to%20rent%20a%20board%20(please%20share%20availability).">
+              <a href="https://wa.me/62081236302148?text=Hello%20BANYU,%20I'd%20like%20to%20rent%20a%20board%20(please%20share%20availability).">
                 Book a Rental
                 <ArrowRight className="w-4 h-4 ml-2" />
               </a>

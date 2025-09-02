@@ -144,7 +144,7 @@ const Custom = () => {
   const handleSubmitWhatsApp = () => {
     if (!formData.name) return;
     const msg = composeWhatsAppMessage();
-    const url = `https://wa.me/6281234567890?text=${msg}`;
+    const url = `https://wa.me/62081236302148?text=${msg}`;
     window.open(url, '_blank');
   };
 
@@ -187,7 +187,7 @@ const Custom = () => {
 
                 <div>
                   <Label htmlFor="whatsapp">WhatsApp</Label>
-                  <Input id="whatsapp" value={formData.whatsapp} onChange={(e) => handleChange('whatsapp', e.target.value)} placeholder="+62 812-3456-7890" className="mt-1" />
+                  <Input id="whatsapp" value={formData.whatsapp} onChange={(e) => handleChange('whatsapp', e.target.value)} placeholder="+62081236302148" className="mt-1" />
                 </div>
 
                 <div className="grid grid-cols-2 gap-3">

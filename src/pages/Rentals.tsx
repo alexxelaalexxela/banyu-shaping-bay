@@ -31,7 +31,7 @@ const RentalsPage = () => {
                     <span><strong>Weekly:</strong> {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 }).format(item.weeklyRate)}</span>
                   </div>
                   <Button asChild className="mt-4 w-full">
-                    <a href={`https://wa.me/6281234567890?text=${encodeURIComponent(`Hello BANYU, I'd like to rent: ${item.name} (${item.size}, ${item.volume}). Please share availability.`)}`}>
+                    <a href={`https://wa.me/62081236302148?text=${encodeURIComponent(`Hello BANYU, I'd like to rent: ${item.name} (${item.size}, ${item.volume}). Please share availability.`)}`}>
                       Book on WhatsApp
                     </a>
                   </Button>

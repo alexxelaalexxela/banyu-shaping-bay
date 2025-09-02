@@ -24,7 +24,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/contact" className="flex items-center space-x-3 group" title="Open location in Google Maps">
+          <Link to="/" className="flex items-center space-x-3 group" title="Go to homepage">
             <img 
               src={banyuLogo} 
               alt="BANYU Surfboards" 

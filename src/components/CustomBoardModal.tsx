@@ -164,7 +164,7 @@ Please send me a quote and timeline!`);
       return;
     }
     
-    const whatsappUrl = `https://wa.me/6281234567890?text=${generateWhatsAppMessage()}`;
+    const whatsappUrl = `https://wa.me/62081236302148?text=${generateWhatsAppMessage()}`;
     window.open(whatsappUrl, '_blank');
     handleSaveLocally();
   };

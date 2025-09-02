@@ -37,9 +37,9 @@ const Contact = () => {
                 <div>
                   <h3 className="font-serif text-xl font-semibold mb-2">WhatsApp</h3>
                   <Button asChild variant="outline" className="mb-2">
-                    <a href="https://wa.me/6281234567890">
+                    <a href="https://wa.me/62081236302148">
                       <MessageCircle className="w-4 h-4 mr-2" />
-                      +62 812-3456-7890
+                      +62081236302148
                     </a>
                   </Button>
                 </div>

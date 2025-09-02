@@ -9,14 +9,24 @@ const ServiceCards = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const services = [
+    
     {
       icon: Waves,
-      title: 'Handshaped Custom Boards',
-      description: 'Bespoke surfboards crafted to your exact specifications. From fish to guns, each board is uniquely yours.',
-      features: ['Personal consultation', 'Custom dimensions', 'Premium materials', 'Lifetime craftsmanship warranty'],
-      cta: 'Order a Board',
-      action: () => setIsModalOpen(true),
-      gradient: 'ocean-gradient'
+      title: 'Custom Boards',
+      description: 'Bespoke surfboards crafted to your exact specifications — shape, size, fins, artwork.',
+      features: ['Personal consultation', 'Custom dimensions', 'Premium materials', 'Craftsmanship guarantee'],
+      cta: 'Order a Custom Board',
+      action: () => window.location.assign('/custom'),
+      gradient: ''
+    },
+    {
+      icon: Waves,
+      title: 'Our Boards',
+      description: 'Browse our current models and specs. Find the perfect board for your waves and style.',
+      features: ['Fish, Shortboards, Longboards', 'Specs & volumes', 'Tail & fin options', 'Ready to customize'],
+      cta: 'View Our Boards',
+      action: () => window.location.assign('/boards'),
+      gradient: ''
     },
     {
       icon: Palette,
@@ -42,7 +52,7 @@ const ServiceCards = () => {
       description: 'High-quality rental boards for all skill levels. Perfect for testing different shapes or extended surf trips in Lombok.',
       features: ['Daily & weekly rates', 'All skill levels', 'Quality boards', 'Local delivery'],
       cta: 'Browse Rentals',
-      action: () => window.location.href = '/services#rentals',
+      action: () => window.location.assign('/rentals'),
       gradient: 'ocean-gradient'
     },
     {
@@ -50,8 +60,8 @@ const ServiceCards = () => {
       title: 'Surf Lessons',
       description: 'Learn to surf or improve your skills with ISA-certified instructors who know Lombok\'s waves like the back of their hand.',
       features: ['Certified instructors', 'All skill levels', 'Small groups', 'Equipment included'],
-      cta: 'Book Lessons',
-      action: () => window.open('https://wa.me/6281234567890?text=Hello%20BANYU,%20I%20would%20like%20to%20book%20surf%20lessons.%20Please%20send%20me%20more%20information.', '_blank'),
+      cta: 'View Lessons',
+      action: () => window.location.assign('/lessons'),
       gradient: 'wood-gradient'
     }
   ];
@@ -76,10 +86,10 @@ const ServiceCards = () => {
             {/* Services Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => (
-                <Card key={index} className="group hover:surf-shadow transition-all duration-300 border-sand-medium">
+                <Card key={index} className="group transition-all duration-300 border">
                   <CardHeader className="text-center pb-4">
-                    <div className={`w-16 h-16 mx-auto mb-4 ${service.gradient} rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                      <service.icon className="h-8 w-8 text-white" />
+                    <div className={`w-12 h-12 mx-auto mb-3 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 bg-muted`}>
+                      <service.icon className="h-6 w-6 text-foreground" />
                     </div>
                     <CardTitle className="font-serif text-xl">{service.title}</CardTitle>
                     <CardDescription className="text-muted-foreground">
@@ -120,15 +130,7 @@ const ServiceCards = () => {
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
-                <Button 
-                  asChild 
-                  variant="outline" 
-                  size="lg"
-                >
-                  <a href="https://wa.me/6281234567890?text=Hello%20BANYU,%20I%20have%20questions%20about%20your%20services.">
-                    WhatsApp Us
-                  </a>
-                </Button>
+                
               </div>
             </div>
           </div>

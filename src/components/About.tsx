@@ -65,7 +65,7 @@ const About = () => {
             {/* Image */}
             <div className="relative">
               <img 
-                src="/api/placeholder/600/400" 
+                src="/images/about.jpg" 
                 alt="BANYU shaping bay in Gerupuk Village"
                 className="rounded-lg wood-shadow w-full"
               />
@@ -78,7 +78,7 @@ const About = () => {
             {features.map((feature, index) => (
               <div key={index} className="text-center group">
                 <div className="w-16 h-16 mx-auto mb-4 bg-ocean-gradient rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <feature.icon className="h-8 w-8 text-white" />
+                  <feature.icon className="h-8 w-8 text-blue-500" />
                 </div>
                 <h4 className="font-serif text-xl font-semibold text-foreground mb-3">
                   {feature.title}

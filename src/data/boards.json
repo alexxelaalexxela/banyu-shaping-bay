@@ -5,20 +5,19 @@
     "type": "Fish",
     "description": "Perfect for the playful waves of Gerupuk. Twin fin setup for speed and maneuverability.",
     "dimensions": {
-      "length": "6'2\"",
-      "width": "21.5\"",
-      "thickness": "2.75\"",
-      "volume": "38.5L"
+      "length": "5'11-6'5\"",
+      
+      "volume": "30-38L"
     },
     "features": ["Twin fin setup", "Swallow tail", "Medium rocker"],
     "waveConditions": "2-6ft, playful surf",
     "surfLevel": "Intermediate to Advanced",
-    "price": "$850",
-    "image": "/api/placeholder/600/400",
+    "price": "4.000.000 rp",
+    "image": "images/fish.jpeg",
     "gallery": [
-      "/api/placeholder/600/400",
-      "/api/placeholder/600/400",
-      "/api/placeholder/600/400"
+      "images/fish.jpeg",
+      "images/fish.jpeg",
+      "images/fish.jpeg"
     ]
   },
   {

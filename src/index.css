@@ -11,9 +11,9 @@ Colors: sand/wood/ocean blue/off-white palette
 
 @layer base {
   :root {
-    /* Off-white and sand tones */
-    --background: 35 25% 97%;
-    --foreground: 25 15% 15%;
+    /* Joyful/design inspired palette - Sand and Ocean */
+    --background: 45 22% 86%; /* #DDD7C6 */
+    --foreground: 210 25% 24%; /* #2e4756-ish for better contrast with 47667B */
 
     /* Card and surfaces */
     --card: 35 30% 99%;
@@ -23,20 +23,20 @@ Colors: sand/wood/ocean blue/off-white palette
     --popover-foreground: 25 15% 15%;
 
     /* Ocean blue primary */
-    --primary: 205 85% 35%;
-    --primary-foreground: 35 30% 99%;
+    --primary: 203 26% 37%; /* #47667B */
+    --primary-foreground: 0 0% 100%;
 
     /* Sand secondary */
-    --secondary: 35 35% 88%;
-    --secondary-foreground: 25 20% 25%;
+    --secondary: 45 22% 86%;
+    --secondary-foreground: 210 25% 24%;
 
     /* Wood accent */
-    --accent: 25 45% 70%;
-    --accent-foreground: 25 15% 15%;
+    --accent: 45 30% 80%;
+    --accent-foreground: 210 25% 24%;
 
     /* Muted sand tones */
-    --muted: 35 25% 92%;
-    --muted-foreground: 25 8% 45%;
+    --muted: 45 20% 90%;
+    --muted-foreground: 210 10% 40%;
 
     /* Ocean depths */
     --ocean-light: 200 70% 85%;
@@ -56,9 +56,9 @@ Colors: sand/wood/ocean blue/off-white palette
     --destructive: 0 75% 60%;
     --destructive-foreground: 35 30% 99%;
 
-    --border: 35 20% 85%;
-    --input: 35 20% 90%;
-    --ring: 205 85% 35%;
+    --border: 45 15% 80%;
+    --input: 45 18% 88%;
+    --ring: 203 26% 37%;
 
     --radius: 8px;
 

@@ -11,15 +11,14 @@ const Header = () => {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Boards', path: '/boards' },
-    { name: 'Services', path: '/services' },
-    { name: 'Gallery', path: '/gallery' },
+    { name: 'Custom', path: '/custom' },
     { name: 'Contact', path: '/contact' }
   ];
 
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b border-sand-medium">
+    <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -57,8 +56,8 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button asChild className="ocean-gradient text-white hover:opacity-90">
-              <Link to="/boards#custom-order">Order a Board</Link>
+            <Button asChild variant="outline">
+              <Link to="/custom">Order a Board</Link>
             </Button>
           </div>
 
@@ -91,8 +90,8 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button asChild className="ocean-gradient text-white mt-4">
-                <Link to="/boards#custom-order">Order a Board</Link>
+              <Button asChild variant="outline" className="mt-4">
+                <Link to="/contact">Order a Board</Link>
               </Button>
             </div>
           </nav>

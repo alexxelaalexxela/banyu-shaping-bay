@@ -1,0 +1,72 @@
+[
+  {
+    "id": "beginner-foam-1",
+    "name": "Beginner Foam Board",
+    "type": "Soft Top",
+    "size": "8'6\"",
+    "volume": "55L",
+    "dailyRate": 150000,
+    "weeklyRate": 900000,
+    "caution": 500000,
+    "currency": "IDR",
+    "image": "/api/placeholder/400/300",
+    "description": "Safe and stable foam board perfect for learning",
+    "suitable": "Beginners, Kids"
+  },
+  {
+    "id": "longboard-rental-1",
+    "name": "Classic Longboard",
+    "type": "Fiberglass",
+    "size": "9'0\"",
+    "volume": "62L",
+    "dailyRate": 200000,
+    "weeklyRate": 1200000,
+    "caution": 1000000,
+    "currency": "IDR",
+    "image": "/api/placeholder/400/300",
+    "description": "Traditional longboard for mellow waves",
+    "suitable": "Beginner to Intermediate"
+  },
+  {
+    "id": "shortboard-rental-1",
+    "name": "Performance Shortboard",
+    "type": "Fiberglass",
+    "size": "6'2\"",
+    "volume": "32L",
+    "dailyRate": 250000,
+    "weeklyRate": 1500000,
+    "caution": 1500000,
+    "currency": "IDR",
+    "image": "/api/placeholder/400/300",
+    "description": "High-performance board for experienced surfers",
+    "suitable": "Intermediate to Advanced"
+  },
+  {
+    "id": "fish-rental-1",
+    "name": "Fish Board",
+    "type": "Fiberglass",
+    "size": "6'0\"",
+    "volume": "38L",
+    "dailyRate": 225000,
+    "weeklyRate": 1350000,
+    "caution": 1200000,
+    "currency": "IDR",
+    "image": "/api/placeholder/400/300",
+    "description": "Fun fish design for playful waves",
+    "suitable": "Intermediate"
+  },
+  {
+    "id": "sup-rental-1",
+    "name": "Stand Up Paddle",
+    "type": "SUP",
+    "size": "10'6\"",
+    "volume": "280L",
+    "dailyRate": 180000,
+    "weeklyRate": 1080000,
+    "caution": 800000,
+    "currency": "IDR",
+    "image": "/api/placeholder/400/300",
+    "description": "SUP for calm water exploration",
+    "suitable": "All levels"
+  }
+]

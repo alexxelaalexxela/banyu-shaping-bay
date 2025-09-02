@@ -52,6 +52,21 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				ocean: {
+					light: 'hsl(var(--ocean-light))',
+					medium: 'hsl(var(--ocean-medium))',
+					deep: 'hsl(var(--ocean-deep))'
+				},
+				wood: {
+					light: 'hsl(var(--wood-light))',
+					medium: 'hsl(var(--wood-medium))',
+					dark: 'hsl(var(--wood-dark))'
+				},
+				sand: {
+					light: 'hsl(var(--sand-light))',
+					medium: 'hsl(var(--sand-medium))',
+					dark: 'hsl(var(--sand-dark))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +77,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				serif: ['Crimson Text', 'serif'],
+				sans: ['Inter', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

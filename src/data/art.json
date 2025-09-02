@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ocean-mandala",
+    "name": "Ocean Mandala",
+    "technique": "Hand-painted Resin Art",
+    "description": "Intricate mandala design inspired by ocean currents and traditional Indonesian patterns",
+    "image": "/api/placeholder/500/600",
+    "colors": ["Deep Blue", "Turquoise", "White", "Gold"],
+    "timeToComplete": "5-7 days",
+    "additionalCost": "$150"
+  },
+  {
+    "id": "lombok-sunset",
+    "name": "Lombok Sunset",
+    "technique": "Acrylic Paint & Resin Tint",
+    "description": "Stunning sunset scene capturing the magic of Lombok's evening light",
+    "image": "/api/placeholder/500/600",
+    "colors": ["Orange", "Pink", "Purple", "Yellow"],
+    "timeToComplete": "3-5 days",
+    "additionalCost": "$120"
+  },
+  {
+    "id": "tropical-geometric",
+    "name": "Tropical Geometry",
+    "technique": "Resin Tint & Spray Art",
+    "description": "Modern geometric patterns with tropical color palettes",
+    "image": "/api/placeholder/500/600",
+    "colors": ["Green", "Yellow", "Blue", "White"],
+    "timeToComplete": "4-6 days",
+    "additionalCost": "$100"
+  },
+  {
+    "id": "wave-abstraction",
+    "name": "Wave Abstraction",
+    "technique": "Mixed Media",
+    "description": "Abstract interpretation of wave movements and ocean energy",
+    "image": "/api/placeholder/500/600",
+    "colors": ["Various Blues", "White", "Silver"],
+    "timeToComplete": "6-8 days",
+    "additionalCost": "$180"
+  },
+  {
+    "id": "traditional-batik",
+    "name": "Sasak Batik Pattern",
+    "technique": "Hand-drawn & Painted",
+    "description": "Traditional Sasak tribal patterns reimagined on surfboard canvas",
+    "image": "/api/placeholder/500/600",
+    "colors": ["Brown", "Gold", "Red", "Black"],
+    "timeToComplete": "7-10 days",
+    "additionalCost": "$200"
+  },
+  {
+    "id": "coral-reef",
+    "name": "Coral Reef Life",
+    "technique": "Detailed Hand Painting",
+    "description": "Vibrant coral reef ecosystem with tropical fish and marine life",
+    "image": "/api/placeholder/500/600",
+    "colors": ["Coral Pink", "Tropical Blue", "Yellow", "Purple"],
+    "timeToComplete": "8-12 days",
+    "additionalCost": "$250"
+  }
+]

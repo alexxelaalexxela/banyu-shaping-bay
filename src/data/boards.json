@@ -1,0 +1,90 @@
+[
+  {
+    "id": "lombok-fish",
+    "name": "Lombok Fish",
+    "type": "Fish",
+    "description": "Perfect for the playful waves of Gerupuk. Twin fin setup for speed and maneuverability.",
+    "dimensions": {
+      "length": "6'2\"",
+      "width": "21.5\"",
+      "thickness": "2.75\"",
+      "volume": "38.5L"
+    },
+    "features": ["Twin fin setup", "Swallow tail", "Medium rocker"],
+    "waveConditions": "2-6ft, playful surf",
+    "surfLevel": "Intermediate to Advanced",
+    "price": "$850",
+    "image": "/api/placeholder/600/400",
+    "gallery": [
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400"
+    ]
+  },
+  {
+    "id": "gerupuk-gun",
+    "name": "Gerupuk Gun",
+    "type": "Step-Up",
+    "description": "For the bigger days at Desert Point and Bangko Bangko. Built for power and control.",
+    "dimensions": {
+      "length": "7'0\"",
+      "width": "19.5\"",
+      "thickness": "2.5\"",
+      "volume": "32L"
+    },
+    "features": ["Single fin", "Pin tail", "Pulled-in nose"],
+    "waveConditions": "6-12ft, powerful surf",
+    "surfLevel": "Advanced",
+    "price": "$950",
+    "image": "/api/placeholder/600/400",
+    "gallery": [
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400"
+    ]
+  },
+  {
+    "id": "indo-longboard",
+    "name": "Indo Logger",
+    "type": "Longboard",
+    "description": "Classic single fin longboard for the mellower waves and endless summer sessions.",
+    "dimensions": {
+      "length": "9'2\"",
+      "width": "22.75\"",
+      "thickness": "3\"",
+      "volume": "68L"
+    },
+    "features": ["Single fin", "Square tail", "Traditional template"],
+    "waveConditions": "1-4ft, mellow surf",
+    "surfLevel": "Beginner to Intermediate",
+    "price": "$750",
+    "image": "/api/placeholder/600/400",
+    "gallery": [
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400"
+    ]
+  },
+  {
+    "id": "twin-fin-cruiser",
+    "name": "Twin Fin Cruiser",
+    "type": "Twin Fin",
+    "description": "Versatile everyday board that handles most conditions around Lombok with style.",
+    "dimensions": {
+      "length": "6'6\"",
+      "width": "21\"",
+      "thickness": "2.625\"",
+      "volume": "42L"
+    },
+    "features": ["Twin fin", "Fish tail", "Balanced rocker"],
+    "waveConditions": "2-8ft, all conditions",
+    "surfLevel": "Intermediate",
+    "price": "$800",
+    "image": "/api/placeholder/600/400",
+    "gallery": [
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400",
+      "/api/placeholder/600/400"
+    ]
+  }
+]

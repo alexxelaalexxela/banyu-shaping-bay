@@ -26,20 +26,20 @@
     "type": "Step-Up",
     "description": "For the bigger days at Desert Point and Bangko Bangko. Built for power and control.",
     "dimensions": {
-      "length": "7'0\"",
+      "length": "7'0-8'6\"",
       "width": "19.5\"",
       "thickness": "2.5\"",
-      "volume": "32L"
+      "volume": "32-42L"
     },
     "features": ["Single fin", "Pin tail", "Pulled-in nose"],
     "waveConditions": "6-12ft, powerful surf",
     "surfLevel": "Advanced",
-    "price": "$950",
-    "image": "/api/placeholder/600/400",
+    "price": "5.000.000 rp",
+    "image": "images/gun.jpeg",
     "gallery": [
-      "/api/placeholder/600/400",
-      "/api/placeholder/600/400",
-      "/api/placeholder/600/400"
+      "images/gun.jpeg",
+      "images/gun.jpeg",
+      "images/gun.jpeg"
     ]
   },
   {
@@ -48,20 +48,20 @@
     "type": "Longboard",
     "description": "Classic single fin longboard for the mellower waves and endless summer sessions.",
     "dimensions": {
-      "length": "9'2\"",
+      "length": "9'2-10'6\"",
       "width": "22.75\"",
       "thickness": "3\"",
-      "volume": "68L"
+      "volume": "68-80L"
     },
     "features": ["Single fin", "Square tail", "Traditional template"],
     "waveConditions": "1-4ft, mellow surf",
     "surfLevel": "Beginner to Intermediate",
-    "price": "$750",
-    "image": "/api/placeholder/600/400",
+    "price": "4.000.000 rp",
+    "image": "images/indo.jpeg",
     "gallery": [
-      "/api/placeholder/600/400",
-      "/api/placeholder/600/400",
-      "/api/placeholder/600/400"
+      "images/indo.jpeg",
+      "images/indo.jpeg",
+      "images/indo.jpeg"
     ]
   },
   {
@@ -70,20 +70,20 @@
     "type": "Twin Fin",
     "description": "Versatile everyday board that handles most conditions around Lombok with style.",
     "dimensions": {
-      "length": "6'6\"",
+      "length": "6'6-8'0\"",
       "width": "21\"",
       "thickness": "2.625\"",
-      "volume": "42L"
+      "volume": "42-60 L"
     },
     "features": ["Twin fin", "Fish tail", "Balanced rocker"],
     "waveConditions": "2-8ft, all conditions",
     "surfLevel": "Intermediate",
-    "price": "$800",
-    "image": "/api/placeholder/600/400",
+    "price": "3.500.000 rp",
+    "image": "images/twin.jpeg",
     "gallery": [
-      "/api/placeholder/600/400",
-      "/api/placeholder/600/400",
-      "/api/placeholder/600/400"
+      "images/twin.jpeg",
+      "images/twin.jpeg",
+      "images/twin.jpeg"
     ]
   }
 ]

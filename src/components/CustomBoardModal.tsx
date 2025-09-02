@@ -16,7 +16,7 @@ interface CustomBoardModalProps {
 interface FormData {
   name: string;
   email: string;
-  whatsapp: string;
+  
   height: string;
   weight: string;
   surfLevel: string;
@@ -173,7 +173,7 @@ Please send me a quote and timeline!`);
     setFormData({
       name: '',
       email: '',
-      whatsapp: '',
+      
       height: '',
       weight: '',
       surfLevel: '',

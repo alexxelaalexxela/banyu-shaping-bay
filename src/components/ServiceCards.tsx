@@ -29,24 +29,6 @@ const ServiceCards = () => {
       gradient: ''
     },
     {
-      icon: Palette,
-      title: 'Board Art',
-      description: 'Transform your surfboard into a masterpiece with our custom art services, blending traditional Indonesian motifs with modern designs.',
-      features: ['Hand-painted artwork', 'Resin tinting', 'Traditional patterns', 'Custom designs'],
-      cta: 'View Gallery',
-      action: () => window.location.href = '/gallery',
-      gradient: 'wood-gradient'
-    },
-    {
-      icon: Wrench,
-      title: 'Ding Repairs',
-      description: 'Professional surfboard repairs using traditional techniques and modern materials to restore your board to peak condition.',
-      features: ['Quick turnaround', 'Quality materials', 'Color matching', 'Structural integrity'],
-      cta: 'Get Repair Quote',
-      action: () => window.open('https://wa.me/62081236302148?text=Hello%20BANYU,%20I%20need%20ding%20repair%20for%20my%20board.%20Please%20provide%20a%20quote.', '_blank'),
-      gradient: 'sand-gradient'
-    },
-    {
       icon: MapPin,
       title: 'Board Rental',
       description: 'High-quality rental boards for all skill levels. Perfect for testing different shapes or extended surf trips in Lombok.',
@@ -63,6 +45,24 @@ const ServiceCards = () => {
       cta: 'View Lessons',
       action: () => window.location.assign('/lessons'),
       gradient: 'wood-gradient'
+    },
+    {
+      icon: Palette,
+      title: 'Board Art',
+      description: 'Transform your surfboard into a masterpiece with our custom art services, blending traditional Indonesian motifs with modern designs.',
+      features: ['Hand-painted artwork', 'Resin tinting', 'Traditional patterns', 'Custom designs'],
+      cta: 'View Gallery',
+      action: () => window.location.href = '/gallery',
+      gradient: 'wood-gradient'
+    },
+    {
+      icon: Wrench,
+      title: 'Ding Repairs',
+      description: 'Professional surfboard repairs using traditional techniques and modern materials to restore your board to peak condition.',
+      features: ['Quick turnaround', 'Quality materials', 'Color matching', 'Structural integrity'],
+      cta: 'Get Repair Quote',
+      action: () => window.open('https://wa.me/62081236302148?text=Hello%20BANYU,%20I%20need%20ding%20repair%20for%20my%20board.%20Please%20provide%20a%20quote.', '_blank'),
+      gradient: 'sand-gradient'
     }
   ];
 

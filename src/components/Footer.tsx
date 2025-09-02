@@ -75,9 +75,11 @@ const Footer = () => {
               <li className="flex items-start space-x-2 text-sm">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <span className="opacity-80">
-                  Gerupuk Village, Kuta<br />
-                  Nusa Tenggara Barat<br />
-                  Indonesia 933120
+                  <a href="https://www.google.com/maps/search/?api=1&query=Banyu%20Surfboards%2C%20Pengembur%2C%20Pujut%2C%20Central%20Lombok%20Regency%2C%20West%20Nusa%20Tenggara%2083573" target="_blank" rel="noreferrer" className="hover:underline">
+                    Banyu Surfboards, Pengembur, Pujut<br />
+                    Central Lombok Regency<br />
+                    West Nusa Tenggara 83573
+                  </a>
                 </span>
               </li>
               <li className="flex items-center space-x-2 text-sm">

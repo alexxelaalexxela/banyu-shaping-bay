@@ -25,9 +25,9 @@ const Contact = () => {
                 <div>
                   <h3 className="font-serif text-xl font-semibold mb-2">Visit Our Shaping Bay</h3>
                   <p className="text-muted-foreground">
-                    Gerupuk Village, Kuta<br />
-                    Nusa Tenggara Barat<br />
-                    Indonesia 933120
+                    Banyu Surfboards, Pengembur, Pujut<br />
+                    Central Lombok Regency<br />
+                    West Nusa Tenggara 83573
                   </p>
                 </div>
               </div>
@@ -71,9 +71,27 @@ const Contact = () => {
 
             {/* Map */}
             <div className="bg-sand-light rounded-lg p-6">
-              <h3 className="font-serif text-xl font-semibold mb-4">Find Us in Gerupuk</h3>
-              <div className="aspect-video bg-sand-medium rounded-md flex items-center justify-center">
-                <p className="text-muted-foreground">Google Maps Integration</p>
+              <h3 className="font-serif text-xl font-semibold mb-4">Find Us at Banyu Surfboards</h3>
+              <div className="aspect-video rounded-md overflow-hidden">
+                <iframe
+                  title="BANYU Surfboards Location"
+                  src="https://www.google.com/maps?q=Banyu%20Surfboards%2C%20Pengembur%2C%20Pujut%2C%20Central%20Lombok%20Regency%2C%20West%20Nusa%20Tenggara%2083573&z=14&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+              <div className="mt-4">
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Banyu%20Surfboards%2C%20Pengembur%2C%20Pujut%2C%20Central%20Lombok%20Regency%2C%20West%20Nusa%20Tenggara%2083573"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-primary underline"
+                >
+                  Open in Google Maps
+                </a>
               </div>
             </div>
           </div>

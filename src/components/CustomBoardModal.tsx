@@ -15,7 +15,6 @@ interface CustomBoardModalProps {
 
 interface FormData {
   name: string;
-  email: string;
   
   height: string;
   weight: string;
@@ -25,7 +24,6 @@ interface FormData {
   length: string;
   width: string;
   thickness: string;
-  artwork: string;
   artworkDescription: string;
   budget: string;
   additionalNotes: string;
@@ -35,8 +33,6 @@ const CustomBoardModal = ({ isOpen, onClose }: CustomBoardModalProps) => {
   const { toast } = useToast();
   const [formData, setFormData] = useState<FormData>({
     name: '',
-    email: '',
-    whatsapp: '',
     height: '',
     weight: '',
     surfLevel: '',
@@ -45,7 +41,6 @@ const CustomBoardModal = ({ isOpen, onClose }: CustomBoardModalProps) => {
     length: '',
     width: '',
     thickness: '',
-    artwork: '',
     artworkDescription: '',
     budget: '',
     additionalNotes: ''
@@ -61,8 +56,6 @@ BANYU Custom Board Request
 
 Personal Information:
 - Name: ${formData.name}
-- Email: ${formData.email}
-- WhatsApp: ${formData.whatsapp}
 
 Physical Specs:
 - Height: ${formData.height}
@@ -77,7 +70,6 @@ Board Requirements:
 - Thickness: ${formData.thickness}
 
 Artwork:
-- Style: ${formData.artwork}
 - Description: ${formData.artworkDescription}
 
 Budget: ${formData.budget}
@@ -105,8 +97,7 @@ Type: ${formData.boardType}
 Wave Conditions: ${formData.waveType}
 Dimensions: ${formData.length} x ${formData.width} x ${formData.thickness}
 
-🎨 Artwork: ${formData.artwork}
-${formData.artworkDescription ? `Details: ${formData.artworkDescription}` : ''}
+🎨 Artwork Details: ${formData.artworkDescription || 'N/A'}
 
 💰 Budget: ${formData.budget}
 
@@ -140,10 +131,10 @@ Please send me a quote and timeline!`);
   };
 
   const handleEmailSubmit = () => {
-    if (!formData.name || !formData.email) {
+    if (!formData.name) {
       toast({
         title: "Missing Information",
-        description: "Please fill in your name and email.",
+        description: "Please fill in your name.",
         variant: "destructive"
       });
       return;
@@ -172,8 +163,6 @@ Please send me a quote and timeline!`);
   const resetForm = () => {
     setFormData({
       name: '',
-      email: '',
-      
       height: '',
       weight: '',
       surfLevel: '',
@@ -182,7 +171,6 @@ Please send me a quote and timeline!`);
       length: '',
       width: '',
       thickness: '',
-      artwork: '',
       artworkDescription: '',
       budget: '',
       additionalNotes: ''
@@ -215,28 +203,9 @@ Please send me a quote and timeline!`);
               />
             </div>
 
-            <div>
-              <Label htmlFor="email">Email *</Label>
-              <Input
-                id="email"
-                type="email"
-                value={formData.email}
-                onChange={(e) => handleInputChange('email', e.target.value)}
-                placeholder="your@email.com"
-                className="mt-1"
-              />
-            </div>
+            
 
-            <div>
-              <Label htmlFor="whatsapp">WhatsApp Number</Label>
-              <Input
-                id="whatsapp"
-                value={formData.whatsapp}
-                onChange={(e) => handleInputChange('whatsapp', e.target.value)}
-                placeholder="+62 812-3456-7890"
-                className="mt-1"
-              />
-            </div>
+            
 
             <div className="grid grid-cols-2 gap-3">
               <div>
@@ -347,35 +316,16 @@ Please send me a quote and timeline!`);
             </div>
 
             <div>
-              <Label htmlFor="artwork">Artwork Style</Label>
-              <Select value={formData.artwork} onValueChange={(value) => handleInputChange('artwork', value)}>
-                <SelectTrigger className="mt-1">
-                  <SelectValue placeholder="Choose artwork style" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="none">No Artwork</SelectItem>
-                  <SelectItem value="simple-tint">Simple Resin Tint</SelectItem>
-                  <SelectItem value="geometric">Geometric Patterns</SelectItem>
-                  <SelectItem value="traditional">Traditional Indonesian</SelectItem>
-                  <SelectItem value="ocean-theme">Ocean Theme</SelectItem>
-                  <SelectItem value="custom">Custom Design</SelectItem>
-                </SelectContent>
-              </Select>
+              <Label htmlFor="artworkDescription">Artwork Description</Label>
+              <Textarea
+                id="artworkDescription"
+                value={formData.artworkDescription}
+                onChange={(e) => handleInputChange('artworkDescription', e.target.value)}
+                placeholder="Describe your artwork vision..."
+                className="mt-1"
+                rows={3}
+              />
             </div>
-
-            {formData.artwork && formData.artwork !== 'none' && (
-              <div>
-                <Label htmlFor="artworkDescription">Artwork Description</Label>
-                <Textarea
-                  id="artworkDescription"
-                  value={formData.artworkDescription}
-                  onChange={(e) => handleInputChange('artworkDescription', e.target.value)}
-                  placeholder="Describe your artwork vision..."
-                  className="mt-1"
-                  rows={3}
-                />
-              </div>
-            )}
           </div>
         </div>
 

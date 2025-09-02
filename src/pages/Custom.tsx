@@ -33,12 +33,9 @@ type Finishing = 'regular' | 'matte' | 'glossy' | 'other' | '';
 interface FormData {
   name: string;
   email: string;
-  whatsapp: string;
-  phone: string;
   height: string;
   weight: string;
   surfLevel: SurfLevel;
-  homeBreak: string;
   waveType: WaveType;
   boardType: BoardType;
   length: string;
@@ -52,10 +49,8 @@ interface FormData {
   finishing: Finishing;
   shaperModel: string;
   customShaperModel: string;
-  artwork: string;
   artworkDescription: string;
   budget: string;
-  pickupShipping: string;
   additionalNotes: string;
 }
 
@@ -63,12 +58,9 @@ const Custom = () => {
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
-    whatsapp: '',
-    phone: '',
     height: '',
     weight: '',
     surfLevel: '',
-    homeBreak: '',
     waveType: '',
     boardType: '',
     length: '',
@@ -82,10 +74,8 @@ const Custom = () => {
     finishing: '',
     shaperModel: '',
     customShaperModel: '',
-    artwork: '',
     artworkDescription: '',
     budget: '',
-    pickupShipping: '',
     additionalNotes: ''
   });
 
@@ -100,8 +90,6 @@ const Custom = () => {
       'Personal Information:',
       `- Name: ${formData.name}`,
       formData.email ? `- Email: ${formData.email}` : undefined,
-      formData.whatsapp ? `- WhatsApp: ${formData.whatsapp}` : undefined,
-      formData.phone ? `- Phone: ${formData.phone}` : undefined,
       '',
       'Physical Specs:',
       formData.height ? `- Height: ${formData.height}` : undefined,
@@ -109,7 +97,6 @@ const Custom = () => {
       formData.surfLevel ? `- Surf Level: ${formData.surfLevel}` : undefined,
       '',
       'Surfing Context:',
-      formData.homeBreak ? `- Home Break: ${formData.homeBreak}` : undefined,
       formData.waveType ? `- Wave Type: ${formData.waveType}` : undefined,
       '',
       'Board Requirements:',
@@ -127,11 +114,9 @@ const Custom = () => {
       formData.finishing ? `- Finishing: ${formData.finishing}` : undefined,
       '',
       'Artwork:',
-      formData.artwork ? `- Style: ${formData.artwork}` : undefined,
       formData.artworkDescription ? `- Description: ${formData.artworkDescription}` : undefined,
       '',
       formData.budget ? `Budget: ${formData.budget}` : undefined,
-      formData.pickupShipping ? `Pickup/Shipping: ${formData.pickupShipping}` : undefined,
       '',
       'Additional Notes:',
       formData.additionalNotes || undefined,
@@ -185,11 +170,6 @@ const Custom = () => {
                   <Input id="name" value={formData.name} onChange={(e) => handleChange('name', e.target.value)} className="mt-1" />
                 </div>
 
-                <div>
-                  <Label htmlFor="whatsapp">WhatsApp</Label>
-                  <Input id="whatsapp" value={formData.whatsapp} onChange={(e) => handleChange('whatsapp', e.target.value)} placeholder="+62081236302148" className="mt-1" />
-                </div>
-
                 <div className="grid grid-cols-2 gap-3">
                   <div>
                     <Label htmlFor="height">Height</Label>
@@ -224,8 +204,6 @@ const Custom = () => {
                   <Label>Shaper/Model</Label>
                   <Input value={formData.shaperModel} onChange={(e) => handleChange('shaperModel', e.target.value)} placeholder="Choose Shaper/Model or enter one" className="mt-1" />
                 </div>
-
-                
 
                 <div>
                   <Label>Wave Type</Label>
@@ -367,10 +345,7 @@ const Custom = () => {
             </div>
 
             <div className="grid grid-cols-1 gap-6 mt-6">
-              <div>
-                <Label>Artwork Style</Label>
-                <Input value={formData.artwork} onChange={(e) => handleChange('artwork', e.target.value)} placeholder="e.g. Resin tint, hand-painted, traditional motifs" className="mt-1" />
-              </div>
+              
 
               <div>
                 <Label htmlFor="artworkDescription">Artwork Description</Label>
@@ -394,20 +369,7 @@ const Custom = () => {
                 </Select>
               </div>
 
-              <div>
-                <Label>Pickup/Shipping</Label>
-                <Select value={formData.pickupShipping} onValueChange={(v) => handleChange('pickupShipping', v)}>
-                  <SelectTrigger className="mt-1">
-                    <SelectValue placeholder="Choose pickup/shipping" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="pickup-uluwatu">Free in store pickup (Uluwatu)</SelectItem>
-                    <SelectItem value="pickup-seminyak">Free in store pickup (Seminyak)</SelectItem>
-                    <SelectItem value="shipping">Shipping (include address in notes)</SelectItem>
-                    <SelectItem value="other">Other</SelectItem>
-                  </SelectContent>
-                </Select>
-              </div>
+              
 
               <div>
                 <Label htmlFor="additionalNotes">Additional Notes</Label>

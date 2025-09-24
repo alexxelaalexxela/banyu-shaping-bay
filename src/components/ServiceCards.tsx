@@ -47,6 +47,15 @@ const ServiceCards = () => {
       gradient: 'wood-gradient'
     },
     {
+      icon: MapPin,
+      title: 'Boat Trips',
+      description: 'Boat rental and surf trips to inside/outside spots.',
+      features: ['Inside spot: 200k', 'Outside spot: 300k', 'Private rental available'],
+      cta: 'Plan a Trip',
+      action: () => window.location.assign('/rentals#boat-trips'),
+      gradient: 'ocean-gradient'
+    },
+    {
       icon: Palette,
       title: 'Board Art',
       description: 'Transform your surfboard into a masterpiece with our custom art services, blending traditional Indonesian motifs with modern designs.',

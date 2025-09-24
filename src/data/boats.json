@@ -1,0 +1,23 @@
+[
+  {
+    "id": "boat-rental",
+    "type": "Boat Rental",
+    "description": "Private boat rental for custom trips (price varies, contact us)",
+    "price": null,
+    "currency": "IDR"
+  },
+  {
+    "id": "boat-trip-inside",
+    "type": "Boat Trip (Inside spot)",
+    "description": "Boat trip to inside spot",
+    "price": 200000,
+    "currency": "IDR"
+  },
+  {
+    "id": "boat-trip-outside",
+    "type": "Boat Trip (Outside spot)",
+    "description": "Boat trip to outside spot",
+    "price": 300000,
+    "currency": "IDR"
+  }
+]

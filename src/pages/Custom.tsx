@@ -159,6 +159,30 @@ const Custom = () => {
             <p className="mt-4 text-sm text-muted-foreground">Free in-store pickup available. Shipping is available for an additional cost.</p>
           </section>
 
+          {/* Board Dimensions Guide */}
+          <section className="max-w-3xl mx-auto mb-12 bg-white border rounded-lg p-6">
+            <h2 className="font-serif text-2xl font-semibold mb-3">Board Dimensions Guide</h2>
+            <p className="text-sm text-muted-foreground mb-4">Typical available sizes and thickness ranges. Ask us for volume recommendations.</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+              <div className="p-4 bg-sand-light rounded">
+                <div className="font-semibold">5’10</div>
+                <div>Up to 66L • ~6.5 mm thickness</div>
+              </div>
+              <div className="p-4 bg-sand-light rounded">
+                <div className="font-semibold">6’8</div>
+                <div>Up to 70L • ~7 mm thickness</div>
+              </div>
+              <div className="p-4 bg-sand-light rounded">
+                <div className="font-semibold">7’2 – 8’0</div>
+                <div>Up to 80L • ~8 mm thickness</div>
+              </div>
+              <div className="p-4 bg-sand-light rounded">
+                <div className="font-semibold">8’2 – 9’0</div>
+                <div>Up to 90L • ~10 mm thickness</div>
+              </div>
+            </div>
+          </section>
+
           {/* SURFBOARD ORDER FORM */}
           <div className="max-w-4xl mx-auto bg-white rounded-lg p-6 md:p-8 border">
             <h2 className="font-serif text-2xl font-semibold mb-6">SURFBOARD ORDER FORM</h2>

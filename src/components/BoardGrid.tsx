@@ -29,6 +29,46 @@ const BoardGrid = () => {
             </p>
           </div>
 
+          {/* Board Pricing */}
+          <div className="bg-white rounded-lg p-6 wood-shadow mb-12">
+            <h3 className="font-serif text-2xl font-bold text-foreground mb-2">Board Pricing</h3>
+            <p className="text-muted-foreground mb-6 text-sm">Indicative pricing by size/volume.</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Card className="border">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-lg font-serif">5’10 – 6’6 (jusqu’à 66L)</CardTitle>
+                </CardHeader>
+                <CardContent className="text-xl font-bold text-ocean-deep">
+                  {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 }).format(6500000)}
+                </CardContent>
+              </Card>
+              <Card className="border">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-lg font-serif">6’8 – 7’0 (jusqu’à 70L)</CardTitle>
+                </CardHeader>
+                <CardContent className="text-xl font-bold text-ocean-deep">
+                  {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 }).format(7000000)}
+                </CardContent>
+              </Card>
+              <Card className="border">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-lg font-serif">72–80L</CardTitle>
+                </CardHeader>
+                <CardContent className="text-xl font-bold text-ocean-deep">
+                  {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 }).format(8000000)}
+                </CardContent>
+              </Card>
+              <Card className="border">
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-lg font-serif">82–90L</CardTitle>
+                </CardHeader>
+                <CardContent className="text-xl font-bold text-ocean-deep">
+                  {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 }).format(10000000)}
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+
           {/* Boards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {boardsData.map((board, index) => (
